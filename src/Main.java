@@ -26,19 +26,19 @@ public class Main
         System.out.println("Разница в весе бойцов равна " + diffWeightBoxers + " кг" + "\n");
 
         //Задание №3
-        float banana = 80f;
-        float milk = 105f;
-        float iceCream = 100f;
-        float eggs = 70f;
-        float breakfastWeight = ((banana * 5) + (milk*2) + (iceCream*2) + (eggs*4))/1000;
+        double banana = 80;
+        double milk = 105;
+        double iceCream = 100;
+        double eggs = 70;
+        double breakfastWeight = ((banana * 5) + (milk*2) + (iceCream*2) + (eggs*4))/1000;
         System.out.println("Ответ на задачу №3:");
         System.out.println("Вес завтрака равен " + breakfastWeight + " кг" + "\n");
 
         //Задание №4
-        float dropWeight = 7000f;
-        float daysWeightLossMinus250 = dropWeight/250;
-        float daysWeightLossMinus500 = dropWeight/500;
-        float daysWeightLossAverage = (daysWeightLossMinus250 + daysWeightLossMinus500)/2;
+        int dropWeight = 7000;
+        int daysWeightLossMinus250 = dropWeight/250;
+        int daysWeightLossMinus500 = dropWeight/500;
+        int daysWeightLossAverage = (daysWeightLossMinus250 + daysWeightLossMinus500)/2;
         System.out.println("Ответ на задачу №4:");
         System.out.println("При потере веса 250 грамм в сутки требуется " + daysWeightLossMinus250 + " дней");
         System.out.println("При потере веса 500 грамм в сутки требуется " + daysWeightLossMinus500 + " дней");
